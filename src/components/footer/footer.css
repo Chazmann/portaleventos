@@ -1,7 +1,7 @@
 .footer{
     position: fixed;
-    bottom: 0;
-    width: 90%;
+    bottom: 15px;
+    width: 92vw!important;
     margin: auto;
     display: flex;
     height: 200px;
@@ -12,7 +12,5 @@
     flex-direction: column;
 }
 
-.linea{
-    border-right: ;
-}
+
 
