@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_Publis {
+    margin-left: 30%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.publi {
+    position: relative;
+    border: solid 1px red;
+    width: 100%;
+    height: 230px;
+
+    & .premium {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 221, 0, 0.1);
+        height: 100%;
+        width: 100%;
+        z-index: 0 !important;
+        overflow: hidden;
+
+        & img {
+            object-fit: contain;
+            width: 100%;
+            opacity: 0.1;
+            z-index: 0 !important;
+        }
+    }
+
+    & .plata {
+        display: none;
+    }
+
+    & .datos_publi {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2 !important;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        & aside {
+            position: absolute;
+            right: 20px;
+            width: 250px;
+            height: calc( 100% - 40px);
+            overflow: hidden;
+            & img.imgprev{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
