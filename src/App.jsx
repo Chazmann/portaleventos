@@ -2,19 +2,33 @@
 import PiePagina from './components/footer/Footer'
 import Encabezado from './components/header/header'
 import { ContenedorPublis } from './components/publicacion/contenedorPublis'
+import { EjemploProps } from './components/EjemploProps'
 
-function App() {
-
+export const App = () => {
   return (
     <>
     <Encabezado />
-      <h3>ACA VAN TODAS LAS VAINAS</h3>
-<ContenedorPublis />
-      <PiePagina />
-      
-
-    </>
+    <ContenedorPublis />
+    <EjemploProps />
+    <PiePagina />
+    <EjemploProps />
+  </>
   )
 }
 
-export default App
+// function App() {
+
+//   return (
+//     <>
+//       <Encabezado />
+//       <ContenedorPublis />
+//       <EjemploProps />
+//       <PiePagina />
+//     </>
+//   )
+// }
+
+//export default App
+
+
+

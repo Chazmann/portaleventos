@@ -10,7 +10,7 @@ const Encabezado = () => {
         <div className='header'>
             <img src={logoPortal} alt="" className='' />
             <MenuEnlaces />
-            <Login />
+            <Login NombreUsuario={'Alguien'}/>
 
         </div>
     )

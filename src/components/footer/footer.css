@@ -1,7 +1,7 @@
 .footer{
     
     bottom: 0px;
-    width: 92vw!important;
+    width: 92vw auto!important;
     margin: auto;
     display: flex;
     height: 200px;
@@ -10,6 +10,9 @@
 .lista__columna{
     display: flex;
     flex-direction: column;
+}
+button{
+    padding: 4px 15px;
 }
 
 
