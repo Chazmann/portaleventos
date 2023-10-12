@@ -1,0 +1,10 @@
+<div className="containerpromo">
+            <div className="sliderPromo">
+                Fotitos con descripción
+            </div>
+
+            <div className="buscador">
+                <input type="search" placeholder="Qué estás buscando hoy?"/>
+
+            </div>
+        </div>

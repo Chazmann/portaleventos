@@ -1,5 +1,6 @@
 //declaro un array con 4 posibles valores para el texto de un botón
-const listaBotones = ['Confirmar', 'Cerrar', 'Aceptar', 'Guardar']
+const listaBotones = ['Cancelar' , 'Aceptar', 'Agustín', 'Sofía', 'Diosbal']
+const nombre = 0
 
 export const EjemploProps = () => {
   return (
