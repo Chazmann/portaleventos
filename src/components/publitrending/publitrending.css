@@ -1,0 +1,44 @@
+.trendingitem{
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory ;
+   
+}
+
+.trending{
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.minipubli{
+    aspect-ratio: 1 / 1;
+    flex: 0 0 150px;
+    overflow: hidden;
+    background-color: yellow;
+    border-radius: 14px;
+    
+& .minipublimg{
+    height: 70%;
+    overflow: hidden;
+}
+    & img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    & .price{
+        font-size: 1.2em!important;
+    }
+    & .oldprice{
+        font-size: 0.9em!important;
+    }
+   
+
+}
+

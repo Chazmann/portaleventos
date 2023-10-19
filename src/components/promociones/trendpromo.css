@@ -6,20 +6,34 @@
     }
 .promo1, .promo2{
     position: relative;
-    padding: 20px;
+    /* padding: 20px; */
     height: 96%;
     flex: 0 0 100%;
     background-color: rgb(0, 149, 255);
     position: relative;
     border-radius: 44px;
+    overflow: hidden;
 }
 .detallepromo{
     color: white;
     position: absolute;
     bottom: 20px;
+    padding: 0 20px;
+    
 }
 .price {
-    font-size: 1.4em;
+    font-size: 1.9em;
+}
+.oldprice {
+    margin-left: 10px;
+    text-decoration: line-through;
+    font-size: 1.1em;
 }
 
 .op40{opacity: 0.4;}
+
+.imgpromo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
