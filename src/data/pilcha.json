@@ -1,0 +1,24 @@
+[
+  {
+    "key": "001",
+    "nombre": "Women Blue Denim",
+    "precio": 40,
+    "descuento": 20,
+    "talles": ["S", "M", "L", "XL"],
+    "genero": "Mujer",
+    "Categoria": "Camperas",
+    "SubCate": "Jean",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVF1ATh9J7_telZIfCeq-xAyQz3_VnIf8-TOYZMGtM8eP6RuVqwSLTBQko119DdE8CTis&usqp=CAU"
+  },
+  {
+    "key": "002",
+    "nombre": "Men Blue Denim",
+    "precio": 39,
+    "descuento": 0.2,
+    "talles": ["S", "M", "L", "XL"],
+    "genero": "Hombre",
+    "Categoria": "Camperas",
+    "SubCate": "Jean",
+    "url": "https://nextluxury.com/wp-content/uploads/casual-denim-jacket-mens-style.jpg"
+  }
+]
