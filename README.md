@@ -57,5 +57,5 @@ También debemos definir que componente va a mostrarse y para ello agregamos el 
 </p>
 
 ````JSX
-<Route path="/nosotros" element={<Nosotros />}></Route>
+<Route path="/nosotros" element={<Nosotros />} />
 ````
